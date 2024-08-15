@@ -1,0 +1,33 @@
+Clonar repositório remoto na maquina local
+git clone https://github.com/Yuliangel-Herrera/estrutura-de-dados24.git
+
+COMANDOS GIT
+---------------
+- Ver status do repositório local 
+git status
+
+- Adicionar arquivos não rastreados a serem confirmados 
+git add .
+
+- Criar ponto de marcaçãono projeto/branch
+git commit -m "meu primeiro commit" //menssagem
+
+- Verificar repositórios remotos configurados no repo local
+git remote -v
+
+- Enviar commits pendentes para o repo remooto
+git push origin main //main=branch
+
+COMANDOS .NET
+---------------
+- Listar versões instaladas
+dotnet --list-sdks
+
+- Criar novo projeto Console
+dornet new console "Aula01"
+
+- Executar programa
+dotnet rum
+
+- Executar programa com detalhes
+dotnet watch run
