@@ -33,16 +33,16 @@ namespace Exercicioss
             {
                 if (node.Left != null || node.Right != null)
                 {
-                    Console.Write(node.Data.Text + " (Sim/Não): ");
+                    Console.Write(node.Data.Text + " (Y/N): ");
                     ConsoleKeyInfo keyInfo = Console.ReadKey(true);
                     if (keyInfo.Key == ConsoleKey.Y)
                     {
-                        WriteAnswer("Sim");
+                        WriteAnswer("Y");
                         node = node.Left;
                     }
                     else if (keyInfo.Key == ConsoleKey.N)
                     {
-                        WriteAnswer("Não");
+                        WriteAnswer("N");
                         node = node.Right;
                     }
                     else
